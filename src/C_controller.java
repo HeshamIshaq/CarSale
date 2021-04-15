@@ -33,9 +33,9 @@ public class C_controller {
         C_products C_pro = new C_products(number_pro, cost_pro,  Quantity_pro,  name_pro );
         Linkedproduct.add(C_pro);
         C_emploeey C_emp = new C_emploeey(major_emploeey, number, name);
-        ARRAYemploeey.add(C_emp);
+        Linkedemploeey.add(C_emp);
         C_depOrder C_dep = new C_depOrder(C_ord, C_cust, C_pro, C_emp);
-        ARRAYDeporder.add(C_dep);
+        LinkedDeporder.add(C_dep);
         return;
     }
 
